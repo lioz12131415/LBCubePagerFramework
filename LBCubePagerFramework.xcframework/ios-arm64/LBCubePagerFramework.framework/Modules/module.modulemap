@@ -1,0 +1,11 @@
+framework module LBCubePagerFramework {
+  umbrella header "LBCubePagerFramework.h"
+  export *
+
+  module * { export * }
+}
+
+module LBCubePagerFramework.Swift {
+  header "LBCubePagerFramework-Swift.h"
+  requires objc
+}

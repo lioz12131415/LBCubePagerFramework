@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "lbcubepagerpackage",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/lioz12131415/LBCubePagerPackage.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "0f4e35d5d8bd155cbf161072d2aee97544fdcffd"
+      }
+    }
+  ],
+  "version" : 2
+}

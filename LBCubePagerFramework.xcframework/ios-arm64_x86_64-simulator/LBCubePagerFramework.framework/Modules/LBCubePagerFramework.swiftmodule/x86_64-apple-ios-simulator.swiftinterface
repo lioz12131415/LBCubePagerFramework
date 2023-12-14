@@ -1,0 +1,104 @@
+// swift-interface-format-version: 1.0
+// swift-compiler-version: Apple Swift version 5.9 (swiftlang-5.9.0.128.108 clang-1500.0.40.1)
+// swift-module-flags: -target x86_64-apple-ios14.0-simulator -enable-objc-interop -enable-library-evolution -swift-version 5 -enforce-exclusivity=checked -O -module-name LBCubePagerFramework
+// swift-module-flags-ignorable: -enable-bare-slash-regex
+import Foundation
+@_exported import LBCubePagerFramework
+import Swift
+import UIKit
+import _Concurrency
+import _StringProcessing
+import _SwiftConcurrencyShims
+extension UIKit.UIScrollView {
+  @_Concurrency.MainActor(unsafe) public var visibles: [UIKit.UIView] {
+    get
+  }
+}
+extension LBCubePagerFramework.LBCubePagerViewController {
+  @_Concurrency.MainActor(unsafe) public var lb_controllers: LBCubePagerFramework.LBCubeViewControllers {
+    get
+  }
+}
+extension LBCubePagerFramework.LBCubePagerViewController {
+  @_Concurrency.MainActor(unsafe) public func lb_cube_index(for state: LBCubePagerFramework.LBCubePagerViewController.IndexState) -> Swift.Int
+}
+@objc public protocol LBCubePagerViewControllerDataSource {
+  @objc func startAt(_ cubePagerViewController: LBCubePagerFramework.LBCubePagerViewController) -> Swift.Int
+  @objc func numberOfPages(_ cubePagerViewController: LBCubePagerFramework.LBCubePagerViewController) -> Swift.Int
+  @objc func controllerForItem(_ cubePagerViewController: LBCubePagerFramework.LBCubePagerViewController, at indexPath: Foundation.IndexPath) -> UIKit.UIViewController
+}
+@objc @_inheritsConvenienceInitializers @_Concurrency.MainActor(unsafe) open class LBCubePagerViewController : UIKit.UIPageViewController {
+  @_Concurrency.MainActor(unsafe) open var scrollView: UIKit.UIScrollView? {
+    get
+  }
+  @_Concurrency.MainActor(unsafe) open var isScrollEnable: Swift.Bool {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) weak open var pagerDelegate: (any LBCubePagerFramework.LBCubePagerViewControllerDelegate)? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) weak open var pagerDataSource: (any LBCubePagerFramework.LBCubePagerViewControllerDataSource)? {
+    get
+    set
+  }
+  @_Concurrency.MainActor(unsafe) @objc override dynamic open func viewDidLoad()
+  @_Concurrency.MainActor(unsafe) @objc override dynamic public init(transitionStyle style: UIKit.UIPageViewController.TransitionStyle, navigationOrientation: UIKit.UIPageViewController.NavigationOrientation, options: [UIKit.UIPageViewController.OptionsKey : Any]? = nil)
+  @_Concurrency.MainActor(unsafe) @objc required dynamic public init?(coder: Foundation.NSCoder)
+  @objc deinit
+}
+extension LBCubePagerFramework.LBCubePagerViewController {
+  @_Concurrency.MainActor(unsafe) public func scroll(to index: Swift.Int)
+}
+extension LBCubePagerFramework.LBCubePagerViewController {
+  @_Concurrency.MainActor(unsafe) public func reloadData()
+}
+extension LBCubePagerFramework.LBCubePagerViewController : UIKit.UIPageViewControllerDelegate, UIKit.UIPageViewControllerDataSource {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func pageViewController(_ pageViewController: UIKit.UIPageViewController, viewControllerBefore viewController: UIKit.UIViewController) -> UIKit.UIViewController?
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func pageViewController(_ pageViewController: UIKit.UIPageViewController, viewControllerAfter viewController: UIKit.UIViewController) -> UIKit.UIViewController?
+}
+extension LBCubePagerFramework.LBCubePagerViewController : UIKit.UIScrollViewDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func scrollViewDidScroll(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func scrollViewDidEndDecelerating(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func scrollViewDidEndScrollingAnimation(_ scrollView: UIKit.UIScrollView)
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func scrollViewDidEndDragging(_ scrollView: UIKit.UIScrollView, willDecelerate decelerate: Swift.Bool)
+}
+extension LBCubePagerFramework.LBCubePagerViewController : UIKit.UIGestureRecognizerDelegate {
+  @_Concurrency.MainActor(unsafe) @objc dynamic public func gestureRecognizer(_ gestureRecognizer: UIKit.UIGestureRecognizer, shouldReceive touch: UIKit.UITouch) -> Swift.Bool
+}
+@objc public protocol LBCubePagerViewControllerDelegate {
+  @objc optional func cubePager(_ cubePagerViewController: LBCubePagerFramework.LBCubePagerViewController, didDisplay vc: UIKit.UIViewController, forPageAt indexPath: Foundation.IndexPath)
+  @objc optional func cubePager(_ cubePagerViewController: LBCubePagerFramework.LBCubePagerViewController, willDisplay vc: UIKit.UIViewController, forPageAt indexPath: Foundation.IndexPath)
+  @objc optional func cubePager(_ cubePagerViewController: LBCubePagerFramework.LBCubePagerViewController, didTouchAt event: LBCubePagerFramework.LBCubePagerViewController.Touch, _ point: CoreFoundation.CGPoint)
+}
+public typealias LBCubeViewControllers = (visibles: [UIKit.UIViewController], unVisibles: [UIKit.UIViewController])
+extension LBCubePagerFramework.LBCubePagerViewController {
+  @objc public enum Touch : Swift.Int {
+    case left
+    case right
+    case center
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+}
+extension LBCubePagerFramework.LBCubePagerViewController {
+  @objc public enum IndexState : Swift.Int {
+    case current
+    case willDisplay
+    public init?(rawValue: Swift.Int)
+    public typealias RawValue = Swift.Int
+    public var rawValue: Swift.Int {
+      get
+    }
+  }
+}
+extension LBCubePagerFramework.LBCubePagerViewController.Touch : Swift.Equatable {}
+extension LBCubePagerFramework.LBCubePagerViewController.Touch : Swift.Hashable {}
+extension LBCubePagerFramework.LBCubePagerViewController.Touch : Swift.RawRepresentable {}
+extension LBCubePagerFramework.LBCubePagerViewController.IndexState : Swift.Equatable {}
+extension LBCubePagerFramework.LBCubePagerViewController.IndexState : Swift.Hashable {}
+extension LBCubePagerFramework.LBCubePagerViewController.IndexState : Swift.RawRepresentable {}

@@ -1,0 +1,2450 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBCubePagerFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBCubePagerFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBCubePagerFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBCubePagerFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBCubePagerFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBCubePagerFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBCubePagerFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBCubePagerFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LBCubePagerViewControllerDataSource",
+        "printedName": "LBCubePagerViewControllerDataSource",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "startAt",
+            "printedName": "startAt(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LBCubePagerViewController",
+                "printedName": "LBCubePagerFramework.LBCubePagerViewController",
+                "usr": "c:@M@LBCubePagerFramework@objc(cs)LBCubePagerViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBCubePagerFramework@objc(pl)LBCubePagerViewControllerDataSource(im)startAt:",
+            "mangledName": "$s20LBCubePagerFramework0aB24ViewControllerDataSourceP7startAtySiAA0abdE0CF",
+            "moduleName": "LBCubePagerFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : LBCubePagerFramework.LBCubePagerViewControllerDataSource>",
+            "sugared_genericSig": "<Self where Self : LBCubePagerFramework.LBCubePagerViewControllerDataSource>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "numberOfPages",
+            "printedName": "numberOfPages(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LBCubePagerViewController",
+                "printedName": "LBCubePagerFramework.LBCubePagerViewController",
+                "usr": "c:@M@LBCubePagerFramework@objc(cs)LBCubePagerViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBCubePagerFramework@objc(pl)LBCubePagerViewControllerDataSource(im)numberOfPages:",
+            "mangledName": "$s20LBCubePagerFramework0aB24ViewControllerDataSourceP13numberOfPagesySiAA0abdE0CF",
+            "moduleName": "LBCubePagerFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : LBCubePagerFramework.LBCubePagerViewControllerDataSource>",
+            "sugared_genericSig": "<Self where Self : LBCubePagerFramework.LBCubePagerViewControllerDataSource>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "controllerForItem",
+            "printedName": "controllerForItem(_:at:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LBCubePagerViewController",
+                "printedName": "LBCubePagerFramework.LBCubePagerViewController",
+                "usr": "c:@M@LBCubePagerFramework@objc(cs)LBCubePagerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBCubePagerFramework@objc(pl)LBCubePagerViewControllerDataSource(im)controllerForItem:at:",
+            "mangledName": "$s20LBCubePagerFramework0aB24ViewControllerDataSourceP17controllerForItem_2atSo06UIViewE0CAA0abdE0C_10Foundation9IndexPathVtF",
+            "moduleName": "LBCubePagerFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : LBCubePagerFramework.LBCubePagerViewControllerDataSource>",
+            "sugared_genericSig": "<Self where Self : LBCubePagerFramework.LBCubePagerViewControllerDataSource>",
+            "protocolReq": true,
+            "declAttributes": [
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@LBCubePagerFramework@objc(pl)LBCubePagerViewControllerDataSource",
+        "mangledName": "$s20LBCubePagerFramework0aB24ViewControllerDataSourceP",
+        "moduleName": "LBCubePagerFramework",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBCubePagerFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBCubePagerFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LBCubePagerViewController",
+        "printedName": "LBCubePagerViewController",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "scrollView",
+            "printedName": "scrollView",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIScrollView?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIScrollView",
+                    "printedName": "UIKit.UIScrollView",
+                    "usr": "c:objc(cs)UIScrollView"
+                  }
+                ],
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20LBCubePagerFramework0aB14ViewControllerC06scrollD0So08UIScrollD0CSgvp",
+            "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC06scrollD0So08UIScrollD0CSgvp",
+            "moduleName": "LBCubePagerFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "AccessControl"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "UIKit.UIScrollView?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIScrollView",
+                        "printedName": "UIKit.UIScrollView",
+                        "usr": "c:objc(cs)UIScrollView"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20LBCubePagerFramework0aB14ViewControllerC06scrollD0So08UIScrollD0CSgvg",
+                "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC06scrollD0So08UIScrollD0CSgvg",
+                "moduleName": "LBCubePagerFramework",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "isScrollEnable",
+            "printedName": "isScrollEnable",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20LBCubePagerFramework0aB14ViewControllerC14isScrollEnableSbvp",
+            "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC14isScrollEnableSbvp",
+            "moduleName": "LBCubePagerFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "AccessControl"
+            ],
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20LBCubePagerFramework0aB14ViewControllerC14isScrollEnableSbvg",
+                "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC14isScrollEnableSbvg",
+                "moduleName": "LBCubePagerFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Bool",
+                    "printedName": "Swift.Bool",
+                    "usr": "s:Sb"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20LBCubePagerFramework0aB14ViewControllerC14isScrollEnableSbvs",
+                "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC14isScrollEnableSbvs",
+                "moduleName": "LBCubePagerFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20LBCubePagerFramework0aB14ViewControllerC14isScrollEnableSbvM",
+                "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC14isScrollEnableSbvM",
+                "moduleName": "LBCubePagerFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pagerDelegate",
+            "printedName": "pagerDelegate",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "LBCubePagerFramework.LBCubePagerViewControllerDelegate?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20LBCubePagerFramework0aB14ViewControllerC13pagerDelegateAA0abdeG0_pSgvp",
+            "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC13pagerDelegateAA0abdeG0_pSgvp",
+            "moduleName": "LBCubePagerFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "Custom",
+              "HasInitialValue",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LBCubePagerFramework.LBCubePagerViewControllerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LBCubePagerViewControllerDelegate",
+                        "printedName": "LBCubePagerFramework.LBCubePagerViewControllerDelegate",
+                        "usr": "c:@M@LBCubePagerFramework@objc(pl)LBCubePagerViewControllerDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20LBCubePagerFramework0aB14ViewControllerC13pagerDelegateAA0abdeG0_pSgvg",
+                "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC13pagerDelegateAA0abdeG0_pSgvg",
+                "moduleName": "LBCubePagerFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LBCubePagerFramework.LBCubePagerViewControllerDelegate?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LBCubePagerViewControllerDelegate",
+                        "printedName": "LBCubePagerFramework.LBCubePagerViewControllerDelegate",
+                        "usr": "c:@M@LBCubePagerFramework@objc(pl)LBCubePagerViewControllerDelegate"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20LBCubePagerFramework0aB14ViewControllerC13pagerDelegateAA0abdeG0_pSgvs",
+                "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC13pagerDelegateAA0abdeG0_pSgvs",
+                "moduleName": "LBCubePagerFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20LBCubePagerFramework0aB14ViewControllerC13pagerDelegateAA0abdeG0_pSgvM",
+                "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC13pagerDelegateAA0abdeG0_pSgvM",
+                "moduleName": "LBCubePagerFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "pagerDataSource",
+            "printedName": "pagerDataSource",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "WeakStorage",
+                "printedName": "LBCubePagerFramework.LBCubePagerViewControllerDataSource?"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20LBCubePagerFramework0aB14ViewControllerC15pagerDataSourceAA0abdegH0_pSgvp",
+            "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC15pagerDataSourceAA0abdegH0_pSgvp",
+            "moduleName": "LBCubePagerFramework",
+            "isOpen": true,
+            "declAttributes": [
+              "HasInitialValue",
+              "Custom",
+              "HasStorage",
+              "ReferenceOwnership",
+              "AccessControl"
+            ],
+            "ownership": 1,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LBCubePagerFramework.LBCubePagerViewControllerDataSource?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LBCubePagerViewControllerDataSource",
+                        "printedName": "LBCubePagerFramework.LBCubePagerViewControllerDataSource",
+                        "usr": "c:@M@LBCubePagerFramework@objc(pl)LBCubePagerViewControllerDataSource"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20LBCubePagerFramework0aB14ViewControllerC15pagerDataSourceAA0abdegH0_pSgvg",
+                "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC15pagerDataSourceAA0abdegH0_pSgvg",
+                "moduleName": "LBCubePagerFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LBCubePagerFramework.LBCubePagerViewControllerDataSource?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "LBCubePagerViewControllerDataSource",
+                        "printedName": "LBCubePagerFramework.LBCubePagerViewControllerDataSource",
+                        "usr": "c:@M@LBCubePagerFramework@objc(pl)LBCubePagerViewControllerDataSource"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20LBCubePagerFramework0aB14ViewControllerC15pagerDataSourceAA0abdegH0_pSgvs",
+                "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC15pagerDataSourceAA0abdegH0_pSgvs",
+                "moduleName": "LBCubePagerFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20LBCubePagerFramework0aB14ViewControllerC15pagerDataSourceAA0abdegH0_pSgvM",
+                "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC15pagerDataSourceAA0abdegH0_pSgvM",
+                "moduleName": "LBCubePagerFramework",
+                "implicit": true,
+                "isOpen": true,
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "viewDidLoad",
+            "printedName": "viewDidLoad()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBCubePagerFramework@objc(cs)LBCubePagerViewController(im)viewDidLoad",
+            "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC11viewDidLoadyyF",
+            "moduleName": "LBCubePagerFramework",
+            "overriding": true,
+            "isOpen": true,
+            "objc_name": "viewDidLoad",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(transitionStyle:navigationOrientation:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "LBCubePagerViewController",
+                "printedName": "LBCubePagerFramework.LBCubePagerViewController",
+                "usr": "c:@M@LBCubePagerFramework@objc(cs)LBCubePagerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "TransitionStyle",
+                "printedName": "UIKit.UIPageViewController.TransitionStyle",
+                "usr": "c:@E@UIPageViewControllerTransitionStyle"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NavigationOrientation",
+                "printedName": "UIKit.UIPageViewController.NavigationOrientation",
+                "usr": "c:@E@UIPageViewControllerNavigationOrientation"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "[UIKit.UIPageViewController.OptionsKey : Any]?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[UIKit.UIPageViewController.OptionsKey : Any]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "OptionsKey",
+                        "printedName": "UIKit.UIPageViewController.OptionsKey",
+                        "usr": "c:@T@UIPageViewControllerOptionsKey"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ProtocolComposition",
+                        "printedName": "Any"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "hasDefaultArg": true,
+                "usr": "s:Sq"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LBCubePagerFramework@objc(cs)LBCubePagerViewController(im)initWithTransitionStyle:navigationOrientation:options:",
+            "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC15transitionStyle21navigationOrientation7optionsACSo06UIPagede10TransitionG0V_So0kde10NavigationI0VSDySo0kdE10OptionsKeyaypGSgtcfc",
+            "moduleName": "LBCubePagerFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithTransitionStyle:navigationOrientation:options:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Override"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(coder:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "LBCubePagerFramework.LBCubePagerViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "LBCubePagerViewController",
+                    "printedName": "LBCubePagerFramework.LBCubePagerViewController",
+                    "usr": "c:@M@LBCubePagerFramework@objc(cs)LBCubePagerViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "NSCoder",
+                "printedName": "Foundation.NSCoder",
+                "usr": "c:objc(cs)NSCoder"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@LBCubePagerFramework@objc(cs)LBCubePagerViewController(im)initWithCoder:",
+            "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC5coderACSgSo7NSCoderC_tcfc",
+            "moduleName": "LBCubePagerFramework",
+            "overriding": true,
+            "implicit": true,
+            "objc_name": "initWithCoder:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "Required"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Var",
+            "name": "lb_controllers",
+            "printedName": "lb_controllers",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Tuple",
+                "printedName": "(visibles: [UIKit.UIViewController], unVisibles: [UIKit.UIViewController])",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.UIViewController]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.UIViewController]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIViewController",
+                        "printedName": "UIKit.UIViewController",
+                        "usr": "c:objc(cs)UIViewController"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:20LBCubePagerFramework0aB14ViewControllerC14lb_controllersSaySo06UIViewE0CG8visibles_AG10unVisiblestvp",
+            "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC14lb_controllersSaySo06UIViewE0CG8visibles_AG10unVisiblestvp",
+            "moduleName": "LBCubePagerFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(visibles: [UIKit.UIViewController], unVisibles: [UIKit.UIViewController])",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[UIKit.UIViewController]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIViewController",
+                            "printedName": "UIKit.UIViewController",
+                            "usr": "c:objc(cs)UIViewController"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Array",
+                        "printedName": "[UIKit.UIViewController]",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "UIViewController",
+                            "printedName": "UIKit.UIViewController",
+                            "usr": "c:objc(cs)UIViewController"
+                          }
+                        ],
+                        "usr": "s:Sa"
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:20LBCubePagerFramework0aB14ViewControllerC14lb_controllersSaySo06UIViewE0CG8visibles_AG10unVisiblestvg",
+                "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC14lb_controllersSaySo06UIViewE0CG8visibles_AG10unVisiblestvg",
+                "moduleName": "LBCubePagerFramework",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "lb_cube_index",
+            "printedName": "lb_cube_index(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexState",
+                "printedName": "LBCubePagerFramework.LBCubePagerViewController.IndexState",
+                "usr": "s:20LBCubePagerFramework0aB14ViewControllerC10IndexStateO"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20LBCubePagerFramework0aB14ViewControllerC13lb_cube_index3forSiAC10IndexStateO_tF",
+            "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC13lb_cube_index3forSiAC10IndexStateO_tF",
+            "moduleName": "LBCubePagerFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scroll",
+            "printedName": "scroll(to:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Int",
+                "printedName": "Swift.Int",
+                "usr": "s:Si"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20LBCubePagerFramework0aB14ViewControllerC6scroll2toySi_tF",
+            "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC6scroll2toySi_tF",
+            "moduleName": "LBCubePagerFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "reloadData",
+            "printedName": "reloadData()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:20LBCubePagerFramework0aB14ViewControllerC10reloadDatayyF",
+            "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC10reloadDatayyF",
+            "moduleName": "LBCubePagerFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pageViewController",
+            "printedName": "pageViewController(_:viewControllerBefore:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIPageViewController",
+                "printedName": "UIKit.UIPageViewController",
+                "usr": "c:objc(cs)UIPageViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LBCubePagerFramework@objc(cs)LBCubePagerViewController(im)pageViewController:viewControllerBeforeViewController:",
+            "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC04pagedE0_04viewE6BeforeSo06UIViewE0CSgSo06UIPagedE0C_AGtF",
+            "moduleName": "LBCubePagerFramework",
+            "objc_name": "pageViewController:viewControllerBeforeViewController:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "pageViewController",
+            "printedName": "pageViewController(_:viewControllerAfter:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "UIKit.UIViewController?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIViewController",
+                    "printedName": "UIKit.UIViewController",
+                    "usr": "c:objc(cs)UIViewController"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIPageViewController",
+                "printedName": "UIKit.UIPageViewController",
+                "usr": "c:objc(cs)UIPageViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LBCubePagerFramework@objc(cs)LBCubePagerViewController(im)pageViewController:viewControllerAfterViewController:",
+            "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC04pagedE0_04viewE5AfterSo06UIViewE0CSgSo06UIPagedE0C_AGtF",
+            "moduleName": "LBCubePagerFramework",
+            "objc_name": "pageViewController:viewControllerAfterViewController:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scrollViewDidScroll",
+            "printedName": "scrollViewDidScroll(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LBCubePagerFramework@objc(cs)LBCubePagerViewController(im)scrollViewDidScroll:",
+            "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC06scrollD9DidScrollyySo08UIScrollD0CF",
+            "moduleName": "LBCubePagerFramework",
+            "objc_name": "scrollViewDidScroll:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scrollViewDidEndDecelerating",
+            "printedName": "scrollViewDidEndDecelerating(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LBCubePagerFramework@objc(cs)LBCubePagerViewController(im)scrollViewDidEndDecelerating:",
+            "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC06scrollD18DidEndDeceleratingyySo08UIScrollD0CF",
+            "moduleName": "LBCubePagerFramework",
+            "objc_name": "scrollViewDidEndDecelerating:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scrollViewDidEndScrollingAnimation",
+            "printedName": "scrollViewDidEndScrollingAnimation(_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LBCubePagerFramework@objc(cs)LBCubePagerViewController(im)scrollViewDidEndScrollingAnimation:",
+            "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC06scrollD24DidEndScrollingAnimationyySo08UIScrollD0CF",
+            "moduleName": "LBCubePagerFramework",
+            "objc_name": "scrollViewDidEndScrollingAnimation:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "scrollViewDidEndDragging",
+            "printedName": "scrollViewDidEndDragging(_:willDecelerate:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIScrollView",
+                "printedName": "UIKit.UIScrollView",
+                "usr": "c:objc(cs)UIScrollView"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LBCubePagerFramework@objc(cs)LBCubePagerViewController(im)scrollViewDidEndDragging:willDecelerate:",
+            "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC06scrollD14DidEndDragging_14willDecelerateySo08UIScrollD0C_SbtF",
+            "moduleName": "LBCubePagerFramework",
+            "objc_name": "scrollViewDidEndDragging:willDecelerate:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "gestureRecognizer",
+            "printedName": "gestureRecognizer(_:shouldReceive:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Bool",
+                "printedName": "Swift.Bool",
+                "usr": "s:Sb"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIGestureRecognizer",
+                "printedName": "UIKit.UIGestureRecognizer",
+                "usr": "c:objc(cs)UIGestureRecognizer"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UITouch",
+                "printedName": "UIKit.UITouch",
+                "usr": "c:objc(cs)UITouch"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@CM@LBCubePagerFramework@objc(cs)LBCubePagerViewController(im)gestureRecognizer:shouldReceiveTouch:",
+            "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC17gestureRecognizer_13shouldReceiveSbSo09UIGestureG0C_So7UITouchCtF",
+            "moduleName": "LBCubePagerFramework",
+            "objc_name": "gestureRecognizer:shouldReceiveTouch:",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "Touch",
+            "printedName": "Touch",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "left",
+                "printedName": "left",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LBCubePagerFramework.LBCubePagerViewController.Touch.Type) -> LBCubePagerFramework.LBCubePagerViewController.Touch",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Touch",
+                        "printedName": "LBCubePagerFramework.LBCubePagerViewController.Touch",
+                        "usr": "s:20LBCubePagerFramework0aB14ViewControllerC5TouchO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LBCubePagerFramework.LBCubePagerViewController.Touch.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Touch",
+                            "printedName": "LBCubePagerFramework.LBCubePagerViewController.Touch",
+                            "usr": "s:20LBCubePagerFramework0aB14ViewControllerC5TouchO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:20LBCubePagerFramework0aB14ViewControllerC5TouchO4leftyA2EmF",
+                "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC5TouchO4leftyA2EmF",
+                "moduleName": "LBCubePagerFramework",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Var",
+                "name": "right",
+                "printedName": "right",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LBCubePagerFramework.LBCubePagerViewController.Touch.Type) -> LBCubePagerFramework.LBCubePagerViewController.Touch",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Touch",
+                        "printedName": "LBCubePagerFramework.LBCubePagerViewController.Touch",
+                        "usr": "s:20LBCubePagerFramework0aB14ViewControllerC5TouchO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LBCubePagerFramework.LBCubePagerViewController.Touch.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Touch",
+                            "printedName": "LBCubePagerFramework.LBCubePagerViewController.Touch",
+                            "usr": "s:20LBCubePagerFramework0aB14ViewControllerC5TouchO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:20LBCubePagerFramework0aB14ViewControllerC5TouchO5rightyA2EmF",
+                "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC5TouchO5rightyA2EmF",
+                "moduleName": "LBCubePagerFramework",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 1
+              },
+              {
+                "kind": "Var",
+                "name": "center",
+                "printedName": "center",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LBCubePagerFramework.LBCubePagerViewController.Touch.Type) -> LBCubePagerFramework.LBCubePagerViewController.Touch",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Touch",
+                        "printedName": "LBCubePagerFramework.LBCubePagerViewController.Touch",
+                        "usr": "s:20LBCubePagerFramework0aB14ViewControllerC5TouchO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LBCubePagerFramework.LBCubePagerViewController.Touch.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "Touch",
+                            "printedName": "LBCubePagerFramework.LBCubePagerViewController.Touch",
+                            "usr": "s:20LBCubePagerFramework0aB14ViewControllerC5TouchO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:20LBCubePagerFramework0aB14ViewControllerC5TouchO6centeryA2EmF",
+                "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC5TouchO6centeryA2EmF",
+                "moduleName": "LBCubePagerFramework",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 2
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LBCubePagerFramework.LBCubePagerViewController.Touch?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Touch",
+                        "printedName": "LBCubePagerFramework.LBCubePagerViewController.Touch",
+                        "usr": "s:20LBCubePagerFramework0aB14ViewControllerC5TouchO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:20LBCubePagerFramework0aB14ViewControllerC5TouchO8rawValueAESgSi_tcfc",
+                "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC5TouchO8rawValueAESgSi_tcfc",
+                "moduleName": "LBCubePagerFramework",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:20LBCubePagerFramework0aB14ViewControllerC5TouchO8rawValueSivp",
+                "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC5TouchO8rawValueSivp",
+                "moduleName": "LBCubePagerFramework",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:20LBCubePagerFramework0aB14ViewControllerC5TouchO8rawValueSivg",
+                    "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC5TouchO8rawValueSivg",
+                    "moduleName": "LBCubePagerFramework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:20LBCubePagerFramework0aB14ViewControllerC5TouchO",
+            "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC5TouchO",
+            "moduleName": "LBCubePagerFramework",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          },
+          {
+            "kind": "TypeDecl",
+            "name": "IndexState",
+            "printedName": "IndexState",
+            "children": [
+              {
+                "kind": "Var",
+                "name": "current",
+                "printedName": "current",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LBCubePagerFramework.LBCubePagerViewController.IndexState.Type) -> LBCubePagerFramework.LBCubePagerViewController.IndexState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IndexState",
+                        "printedName": "LBCubePagerFramework.LBCubePagerViewController.IndexState",
+                        "usr": "s:20LBCubePagerFramework0aB14ViewControllerC10IndexStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LBCubePagerFramework.LBCubePagerViewController.IndexState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "IndexState",
+                            "printedName": "LBCubePagerFramework.LBCubePagerViewController.IndexState",
+                            "usr": "s:20LBCubePagerFramework0aB14ViewControllerC10IndexStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:20LBCubePagerFramework0aB14ViewControllerC10IndexStateO7currentyA2EmF",
+                "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC10IndexStateO7currentyA2EmF",
+                "moduleName": "LBCubePagerFramework",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 0
+              },
+              {
+                "kind": "Var",
+                "name": "willDisplay",
+                "printedName": "willDisplay",
+                "children": [
+                  {
+                    "kind": "TypeFunc",
+                    "name": "Function",
+                    "printedName": "(LBCubePagerFramework.LBCubePagerViewController.IndexState.Type) -> LBCubePagerFramework.LBCubePagerViewController.IndexState",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IndexState",
+                        "printedName": "LBCubePagerFramework.LBCubePagerViewController.IndexState",
+                        "usr": "s:20LBCubePagerFramework0aB14ViewControllerC10IndexStateO"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Metatype",
+                        "printedName": "LBCubePagerFramework.LBCubePagerViewController.IndexState.Type",
+                        "children": [
+                          {
+                            "kind": "TypeNominal",
+                            "name": "IndexState",
+                            "printedName": "LBCubePagerFramework.LBCubePagerViewController.IndexState",
+                            "usr": "s:20LBCubePagerFramework0aB14ViewControllerC10IndexStateO"
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ],
+                "declKind": "EnumElement",
+                "usr": "s:20LBCubePagerFramework0aB14ViewControllerC10IndexStateO11willDisplayyA2EmF",
+                "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC10IndexStateO11willDisplayyA2EmF",
+                "moduleName": "LBCubePagerFramework",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "fixedbinaryorder": 1
+              },
+              {
+                "kind": "Constructor",
+                "name": "init",
+                "printedName": "init(rawValue:)",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Optional",
+                    "printedName": "LBCubePagerFramework.LBCubePagerViewController.IndexState?",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "IndexState",
+                        "printedName": "LBCubePagerFramework.LBCubePagerViewController.IndexState",
+                        "usr": "s:20LBCubePagerFramework0aB14ViewControllerC10IndexStateO"
+                      }
+                    ],
+                    "usr": "s:Sq"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Constructor",
+                "usr": "s:20LBCubePagerFramework0aB14ViewControllerC10IndexStateO8rawValueAESgSi_tcfc",
+                "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC10IndexStateO8rawValueAESgSi_tcfc",
+                "moduleName": "LBCubePagerFramework",
+                "implicit": true,
+                "init_kind": "Designated"
+              },
+              {
+                "kind": "Var",
+                "name": "rawValue",
+                "printedName": "rawValue",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Int",
+                    "printedName": "Swift.Int",
+                    "usr": "s:Si"
+                  }
+                ],
+                "declKind": "Var",
+                "usr": "s:20LBCubePagerFramework0aB14ViewControllerC10IndexStateO8rawValueSivp",
+                "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC10IndexStateO8rawValueSivp",
+                "moduleName": "LBCubePagerFramework",
+                "implicit": true,
+                "accessors": [
+                  {
+                    "kind": "Accessor",
+                    "name": "Get",
+                    "printedName": "Get()",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ],
+                    "declKind": "Accessor",
+                    "usr": "s:20LBCubePagerFramework0aB14ViewControllerC10IndexStateO8rawValueSivg",
+                    "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC10IndexStateO8rawValueSivg",
+                    "moduleName": "LBCubePagerFramework",
+                    "implicit": true,
+                    "accessorKind": "get"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Enum",
+            "usr": "s:20LBCubePagerFramework0aB14ViewControllerC10IndexStateO",
+            "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC10IndexStateO",
+            "moduleName": "LBCubePagerFramework",
+            "declAttributes": [
+              "AccessControl",
+              "ObjC",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "enumRawTypeName": "Int",
+            "conformances": [
+              {
+                "kind": "Conformance",
+                "name": "Equatable",
+                "printedName": "Equatable",
+                "usr": "s:SQ",
+                "mangledName": "$sSQ"
+              },
+              {
+                "kind": "Conformance",
+                "name": "Hashable",
+                "printedName": "Hashable",
+                "usr": "s:SH",
+                "mangledName": "$sSH"
+              },
+              {
+                "kind": "Conformance",
+                "name": "RawRepresentable",
+                "printedName": "RawRepresentable",
+                "children": [
+                  {
+                    "kind": "TypeWitness",
+                    "name": "RawValue",
+                    "printedName": "RawValue",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Int",
+                        "printedName": "Swift.Int",
+                        "usr": "s:Si"
+                      }
+                    ]
+                  }
+                ],
+                "usr": "s:SY",
+                "mangledName": "$sSY"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@LBCubePagerFramework@objc(cs)LBCubePagerViewController",
+        "mangledName": "$s20LBCubePagerFramework0aB14ViewControllerC",
+        "moduleName": "LBCubePagerFramework",
+        "isOpen": true,
+        "declAttributes": [
+          "Custom",
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)UIPageViewController",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIPageViewController",
+          "UIKit.UIViewController",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBCubePagerFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBCubePagerFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "LBCubePagerViewControllerDelegate",
+        "printedName": "LBCubePagerViewControllerDelegate",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "cubePager",
+            "printedName": "cubePager(_:didDisplay:forPageAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LBCubePagerViewController",
+                "printedName": "LBCubePagerFramework.LBCubePagerViewController",
+                "usr": "c:@M@LBCubePagerFramework@objc(cs)LBCubePagerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBCubePagerFramework@objc(pl)LBCubePagerViewControllerDelegate(im)cubePager:didDisplay:forPageAt:",
+            "mangledName": "$s20LBCubePagerFramework0aB22ViewControllerDelegateP04cubeB0_10didDisplay9forPageAtyAA0abdE0C_So06UIViewE0C10Foundation9IndexPathVtF",
+            "moduleName": "LBCubePagerFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : LBCubePagerFramework.LBCubePagerViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : LBCubePagerFramework.LBCubePagerViewControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cubePager",
+            "printedName": "cubePager(_:willDisplay:forPageAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LBCubePagerViewController",
+                "printedName": "LBCubePagerFramework.LBCubePagerViewController",
+                "usr": "c:@M@LBCubePagerFramework@objc(cs)LBCubePagerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "UIViewController",
+                "printedName": "UIKit.UIViewController",
+                "usr": "c:objc(cs)UIViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "IndexPath",
+                "printedName": "Foundation.IndexPath",
+                "usr": "s:10Foundation9IndexPathV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBCubePagerFramework@objc(pl)LBCubePagerViewControllerDelegate(im)cubePager:willDisplay:forPageAt:",
+            "mangledName": "$s20LBCubePagerFramework0aB22ViewControllerDelegateP04cubeB0_11willDisplay9forPageAtyAA0abdE0C_So06UIViewE0C10Foundation9IndexPathVtF",
+            "moduleName": "LBCubePagerFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : LBCubePagerFramework.LBCubePagerViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : LBCubePagerFramework.LBCubePagerViewControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "cubePager",
+            "printedName": "cubePager(_:didTouchAt:_:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "LBCubePagerViewController",
+                "printedName": "LBCubePagerFramework.LBCubePagerViewController",
+                "usr": "c:@M@LBCubePagerFramework@objc(cs)LBCubePagerViewController"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Touch",
+                "printedName": "LBCubePagerFramework.LBCubePagerViewController.Touch",
+                "usr": "s:20LBCubePagerFramework0aB14ViewControllerC5TouchO"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGPoint",
+                "printedName": "CoreFoundation.CGPoint",
+                "usr": "c:@S@CGPoint"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@LBCubePagerFramework@objc(pl)LBCubePagerViewControllerDelegate(im)cubePager:didTouchAt::",
+            "mangledName": "$s20LBCubePagerFramework0aB22ViewControllerDelegateP04cubeB0_10didTouchAt_yAA0abdE0C_AG0I0OSo7CGPointVtF",
+            "moduleName": "LBCubePagerFramework",
+            "genericSig": "<τ_0_0 where τ_0_0 : LBCubePagerFramework.LBCubePagerViewControllerDelegate>",
+            "sugared_genericSig": "<Self where Self : LBCubePagerFramework.LBCubePagerViewControllerDelegate>",
+            "protocolReq": true,
+            "declAttributes": [
+              "Optional",
+              "ObjC"
+            ],
+            "reqNewWitnessTableEntry": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Protocol",
+        "usr": "c:@M@LBCubePagerFramework@objc(pl)LBCubePagerViewControllerDelegate",
+        "mangledName": "$s20LBCubePagerFramework0aB22ViewControllerDelegateP",
+        "moduleName": "LBCubePagerFramework",
+        "genericSig": "<τ_0_0 : AnyObject>",
+        "sugared_genericSig": "<Self : AnyObject>",
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBCubePagerFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBCubePagerFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBCubePagerFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBCubePagerFramework"
+      },
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "LBCubePagerFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "LBCubePagerFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "UIScrollView",
+        "printedName": "UIScrollView",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "visibles",
+            "printedName": "visibles",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[UIKit.UIView]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "UIView",
+                    "printedName": "UIKit.UIView",
+                    "usr": "c:objc(cs)UIView"
+                  }
+                ],
+                "usr": "s:Sa"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:So12UIScrollViewC20LBCubePagerFrameworkE8visiblesSaySo6UIViewCGvp",
+            "mangledName": "$sSo12UIScrollViewC20LBCubePagerFrameworkE8visiblesSaySo6UIViewCGvp",
+            "moduleName": "LBCubePagerFramework",
+            "declAttributes": [
+              "Custom",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "isFromExtension": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Array",
+                    "printedName": "[UIKit.UIView]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "UIView",
+                        "printedName": "UIKit.UIView",
+                        "usr": "c:objc(cs)UIView"
+                      }
+                    ],
+                    "usr": "s:Sa"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:So12UIScrollViewC20LBCubePagerFrameworkE8visiblesSaySo6UIViewCGvg",
+                "mangledName": "$sSo12UIScrollViewC20LBCubePagerFrameworkE8visiblesSaySo6UIViewCGvg",
+                "moduleName": "LBCubePagerFramework",
+                "isFromExtension": true,
+                "accessorKind": "get"
+              }
+            ]
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:objc(cs)UIScrollView",
+        "moduleName": "UIKit",
+        "isOpen": true,
+        "intro_iOS": "2.0",
+        "objc_name": "UIScrollView",
+        "declAttributes": [
+          "Available",
+          "ObjC",
+          "NonSendable",
+          "Custom",
+          "Dynamic"
+        ],
+        "superclassUsr": "c:objc(cs)UIView",
+        "isExternal": true,
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "UIKit.UIView",
+          "UIKit.UIResponder",
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "UITraitChangeObservable",
+            "printedName": "UITraitChangeObservable",
+            "usr": "s:5UIKit23UITraitChangeObservableP",
+            "mangledName": "$s5UIKit23UITraitChangeObservableP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "__DefaultCustomPlaygroundQuickLookable",
+            "printedName": "__DefaultCustomPlaygroundQuickLookable",
+            "usr": "s:s38__DefaultCustomPlaygroundQuickLookableP",
+            "mangledName": "$ss38__DefaultCustomPlaygroundQuickLookableP"
+          }
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Extensions\/UIScrollView+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1006,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Extensions\/UIScrollView+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1069,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Extensions\/UIView+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 443,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Extensions\/UIView+Extensions.swift",
+      "kind": "IntegerLiteral",
+      "offset": 446,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Extensions\/UIView+Extensions.swift",
+      "kind": "FloatLiteral",
+      "offset": 449,
+      "length": 3,
+      "value": "0.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Extensions\/LBCubePagerViewController+Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 3870,
+      "length": 3,
+      "value": "1.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Extensions\/LBCubePagerViewController+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3876,
+      "length": 3,
+      "value": "500"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Extensions\/LBCubePagerViewController+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3975,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Extensions\/LBCubePagerViewController+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4022,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Extensions\/LBCubePagerViewController+Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 4028,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Extensions\/LBCubePagerViewController+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4077,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Extensions\/LBCubePagerViewController+Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 4083,
+      "length": 3,
+      "value": "0.5"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Extensions\/LBCubePagerViewController+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4129,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Extensions\/LBCubePagerViewController+Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 4146,
+      "length": 5,
+      "value": "180.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Extensions\/LBCubePagerViewController+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4195,
+      "length": 2,
+      "value": "60"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Extensions\/LBCubePagerViewController+Extension.swift",
+      "kind": "FloatLiteral",
+      "offset": 4212,
+      "length": 5,
+      "value": "180.0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Extensions\/LBCubePagerViewController+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4286,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Extensions\/LBCubePagerViewController+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4408,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Extensions\/LBCubePagerViewController+Extension.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4412,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 411,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 921,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 991,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 1519,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1597,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1685,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "FloatLiteral",
+      "offset": 1763,
+      "length": 3,
+      "value": "0.4"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 1807,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2176,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2329,
+      "length": 1,
+      "value": "3"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2332,
+      "length": 1,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2896,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 2899,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3054,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3122,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3207,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3313,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 3552,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 3616,
+      "length": 5,
+      "value": "false"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4195,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4226,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4547,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 4578,
+      "length": 1,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5403,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5434,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 5985,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6443,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "IntegerLiteral",
+      "offset": 6986,
+      "length": 1,
+      "value": "0"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/LBCubePagerViewController.swift",
+      "kind": "BooleanLiteral",
+      "offset": 7356,
+      "length": 4,
+      "value": "true"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Enums\/LBCubePageViewController.Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 387,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Enums\/LBCubePageViewController.Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 406,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Enums\/LBCubePageViewController.Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 387,
+      "length": 5,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Enums\/LBCubePageViewController.Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 406,
+      "length": 6,
+      "value": "2"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Enums\/LBCubePageViewController.Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 659,
+      "length": 11,
+      "value": "1"
+    },
+    {
+      "filePath": "\/Users\/lioz\/Desktop\/LBSwift\/LBCubePagerViewController\/Framework\/LBCubePagerFramework\/Enums\/LBCubePageViewController.Enums.swift",
+      "kind": "IntegerLiteral",
+      "offset": 659,
+      "length": 11,
+      "value": "1"
+    }
+  ]
+}

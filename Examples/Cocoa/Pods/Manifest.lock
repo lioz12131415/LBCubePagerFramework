@@ -1,0 +1,16 @@
+PODS:
+  - LBCubePagerFramework (0.0.1)
+
+DEPENDENCIES:
+  - LBCubePagerFramework (from `../../`)
+
+EXTERNAL SOURCES:
+  LBCubePagerFramework:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  LBCubePagerFramework: 5829c19c311d68d55e4bbacd3ed954eae6a2d96c
+
+PODFILE CHECKSUM: bf15638bac98480286a1e964b4159c57053e946b
+
+COCOAPODS: 1.13.0

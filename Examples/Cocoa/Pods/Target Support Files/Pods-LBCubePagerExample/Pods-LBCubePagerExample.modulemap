@@ -1,0 +1,6 @@
+framework module Pods_LBCubePagerExample {
+  umbrella header "Pods-LBCubePagerExample-umbrella.h"
+
+  export *
+  module * { export * }
+}
